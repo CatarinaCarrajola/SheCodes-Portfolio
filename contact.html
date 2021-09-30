@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catarina Carrajola - Front-end Developer</title>
+       <meta
+      name="description"
+      content="Contact Catarina, a front-end engineer based in Norway."
+    />
+    
+    <title>Contact Catarina - Front-end Developer</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -30,6 +35,34 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Catarina Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Catarina Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Homepage </a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Catarina"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Catarina's work"> Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Catarina"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -43,5 +76,66 @@
         <p><a href="https://www.instagram.com/catiedasilva" target="_blank">@catiedasilva</a></p>
       </div>
     </div>
+    <footer class="container">
+          <div
+            class="
+              contact-box
+              d-flex
+              justify-content-between
+              mb-5
+              d-none d-md-flex
+            "
+          >
+            <div>
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+              <a
+                href="contact.html"
+                class="btn btn-branding mt-3"
+                title="Contact Catarina"
+              >
+                Contact me</a
+              >
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              href="mailto:catarinacarrajola@gmail.com"
+              class="email-link"
+              title="Email Catarina"
+              >catarinacarrajola@gmail.com</a
+            >
+          </div>
+          <div class="social-links d-flex justify-content-center">
+            <a
+              href="https://www.github.com/catarinacarrajola"
+              target="_blank"
+              title="GitHub Profile"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/catarinacarrajola"
+              target="_blank"
+              title="LinkedIn Profile"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              title="Twitter Profile"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+          <p class="text-center mt-5">
+            This project was coded by Catarina, and is
+            <a
+              href="https://github.com/catarinacarrajola/SheCodes-Portfolio"
+              target="_blank"
+              >open sourced.</a
+            >
+          </p>
+        </footer>
   </body>
 </html>
